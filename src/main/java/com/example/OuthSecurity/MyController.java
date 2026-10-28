@@ -18,5 +18,11 @@ public class MyController {
 	public String getPrivate() {
 		return "This is Private API";
 	}
+	
+	@GetMapping("/Hello")
+	public String getHello() {
+		return "This is Private API";
+	}
+
 
 }
