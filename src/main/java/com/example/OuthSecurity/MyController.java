@@ -24,5 +24,9 @@ public class MyController {
 		return "This is Private API";
 	}
 
+	@GetMapping("/demo")
+	public String getdemo() {
+		return "This is demo API";
+	}
 
 }
